@@ -39,7 +39,7 @@
     "typescript": "^5.1.3"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint --fix",
-    "*.{less,md}": "prettier --wirte"
+    "src/**/*.{ts,tsx}": "eslint --fix",
+    "src/**/*.{less}": "prettier --wirte"
   }
 }
